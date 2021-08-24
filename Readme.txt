@@ -2,4 +2,6 @@ This is readme file.
 
 Now going to commit readme file.
 
-Now commiting to master.
+commiting completed.
+
+Lets merge to the master.
