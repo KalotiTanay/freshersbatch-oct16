@@ -1,0 +1,83 @@
+body, html{
+			height: 100%;
+			margin: 0;
+			font-size: 16px;
+			font-family: arial;
+			font-weight: 400;
+			line-height: 1.8em;
+			color: #666;
+		}
+section{
+	text-align: center;
+	padding: 50px 80px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a: visited{
+	color: white;
+}
+nav{
+	font-size: 20px;
+}
+.head{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.headclass{
+	background-image: url('images/conference.jpg');
+	min-height: 70%;
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.frontTable{
+	margin-left: 200px;
+	text-align: left;
+	font-weight: 700;
+}
+.images{
+	height: 300px;
+	width: 380px;
+	border-radius: 10px;
+}
+.contentTable{
+	font-size: 20px;
+}
+#confname{
+	font-size: 50px;
+	padding-right: 100px;
+	font-weight: 1000;
+	letter-spacing: 20px;
+}
+#date{
+	font-size: 20px;
+	text-align: right;
+	letter-spacing: 4px;
+}
+#navigation{
+	font-size: 18px;
+	text-align: right;
+}
+#regButton{
+	background-color: #e7e733;
+	padding: 15px 25px;
+	border: none;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}

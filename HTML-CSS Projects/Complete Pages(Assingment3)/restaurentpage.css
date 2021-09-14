@@ -1,0 +1,67 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+section{
+	text-align: center;
+	padding: 50px 80px;
+}
+h5{
+	color: #FFF;
+	text-align: center;
+}
+.header{
+	background-image: url('images/pizza.jpg');
+	min-height: 80%;
+	position: relative;
+	opacity: 0.60;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.headtext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-size: 42px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	line-height: 0em;
+}
+.footer{
+	min-height: 20%;
+}
+#headsubtext{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-size: 24px;
+	letter-spacing: 4px;
+	line-height: 0em;
+	text-transform: uppercase;
+}
+#item{
+	height: 380px;
+	width: 380px;
+}
+#itemfoot{
+	text-align: center;
+	font-size: 18px;
+}
+#sp{
+	height: 650px;
+	width: 1140px;
+}
+#spitem{
+	height: 300px;
+	width: 380px;
+}

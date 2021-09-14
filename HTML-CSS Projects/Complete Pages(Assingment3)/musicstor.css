@@ -1,0 +1,58 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #000;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+.headerstyle{
+  font-size: 20px;
+  background-color: black;
+  height: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+}
+section{
+  text-align: center;
+  padding: 50px 80px;
+  background-color: black;
+  color: white;
+}
+.image1{
+  background-image: url('images/musicshop.jpg');
+  min-height: 100%;
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.imagetext1{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  font-size: 32px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.image{
+  height: 300px;
+  width: 500px;
+}
+#headsubtext{
+  text-transform: capitalize;
+  font-size: 20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paralax Site Example</title>
+	<style type="text/css">
+		body, html{
+			height: 100%;
+			margin: 0;
+			font-size: 16px;
+			font-family: arial;
+			font-weight: 400;
+			line-height: 1.8em;
+			color: #666;
+		}
+		section{
+			text-align: center;
+			padding: 50px 80px;
+		}
+		.paraimg1, .paraimg2{
+			position: relative;
+			opacity: 0.70;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		.paraimg1{
+			background-image: url('images/para1.jpg');
+			min-height: 100%;
+		}
+		.paraimg2{
+			background-image: url('images/para2.jpeg');
+			min-height: 100%;
+		}
+		#sec1{
+			background-color:#f4f4f4;
+			color:#666;
+		}
+		.paratext1{
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			text-align: center;
+			color: #000;
+			font-size: 27px;
+			letter-spacing: 8px;
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+
+<div class="paraimg1">
+	<div class="paratext1">
+		<span>
+			Sample Parallax Website
+		</span>
+	</div>
+</div>
+<section id="sec1">
+	<h2 id="sec1head">About Parallax Scrolling</h2>
+	<p>Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling. Click on the links below to see the difference between a website with and without parallax scrolling.</p>
+</section>
+<div class="paraimg2"></div>
+<section id="sec2">
+	<h2 id="sec2head">Final Words</h2>
+	<p>This website uses parallax effect for the further decoration of website.</p>
+	<p id="sectionfooter">This is sample website and is used only for implementing of parallax effect and is not meant to use as is.</p>
+</section>
+<div class="paraimg1">
+	<div class="paratext1">
+		<span>
+			Thank You !
+		</span>
+	</div>
+</div>
+
+</body>
+</html>
